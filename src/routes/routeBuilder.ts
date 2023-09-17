@@ -1,5 +1,5 @@
 import { PathRouteProps } from "react-router-dom";
-import { LandingPage } from "features";
+import { App } from "App";
 import { Routes } from "./routes";
 
 // Route Builder Item Props
@@ -12,6 +12,6 @@ export interface RouteBuilderItem extends PathRouteProps {
 export const RouteBuilder: RouteBuilderItem[] = [
   {
     path: Routes.home,
-    Element: LandingPage
+    Element: App
   },
 ]
